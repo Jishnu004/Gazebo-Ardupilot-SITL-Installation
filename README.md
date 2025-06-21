@@ -8,7 +8,7 @@ This is a Beginners guide to install and run Gazebo with ROS and ardupilot SITL 
 If your computer has a GPU like Nvidia Graphics card, follow the instructions given below to accelerate the performance of Gazebo.</br>
 (If your computer doesnt have a GPU continue with the Gazebo installation!)
 
-1.Check GPU info
+Check GPU info
 
 ```bash
 lspci | grep VGA
@@ -16,7 +16,7 @@ lspci | grep VGA
 
 This shows which GPU(s) are detected, e.g., NVIDIA, AMD, or Intel.
 
-2. For NVIDIA GPU
+For NVIDIA GPU
 
 ```bash
 nvidia-smi
@@ -24,7 +24,7 @@ nvidia-smi
 
 Shows real-time GPU usage. Requires NVIDIA drivers to be installed. If it shows memory usage, processes, etc., it’s being used.
 
-3. Check if GPU is used for rendering
+Check if GPU is used for rendering
 
 ```bash
 glxinfo | grep "OpenGL renderer"

@@ -1,6 +1,6 @@
 # Gazebo-Ardupilot-SITL-Installation
-This is a Beginners guide to install and run Gazebo with ROS and ardupilot SITL for advanced drone simulations, This will also goes through VTOL or quadplane simulation and possible simulation(Note: Iam preparing this doc with the help of Intelligent-Quads, So if you want other models you want simulate you can visit there Github page 
-# This is a Installation Guide for Gazebo + Ardupilot setup
+This is a Beginners guide to install and run Gazebo with ROS and ardupilot SITL for advanced drone simulations, This will also go through VTOL or quadplane simulation and solve possible errors (Note: Iam preparing this doc with the help of Intelligent-Quads, So if you want to simulate other vehicle models, you can visit there Github page 
+# Installation Guide for Gazebo + Ardupilot setup
 (You need a Ubuntu 20.04 booted in)</br>(Can use WSL for windows and download Ubuntu 20.04LTS from microsoft store !not recommended)
 
 ## GPU setup
@@ -239,7 +239,7 @@ wstool update -t src
 rosdep install --from-paths src --ignore-src --rosdistro `echo $ROS_DISTRO` -y
 ```
 
-(note:if an error pops that says this "Cannot locate rosdep definition for [geographic_msgs]" then proceed with this steps, if no error come up continue with)
+(note:if an error pops that says this "Cannot locate rosdep definition for [geographic_msgs]" then proceed with this steps, if no error come up,continue with "catkin build")
 
 Install geographic_msgs manually
 
@@ -279,7 +279,7 @@ or try with version(eg: if noetic)
 rosdep install --from-paths src --ignore-src --rosdistro noetic -y
 ```
 
-catkin build
+# catkin build
 
 Add a line to end of ~/.bashrc by running the following command:
 

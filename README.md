@@ -1,5 +1,6 @@
 # Gazebo-Ardupilot-SITL-Installation
-This is a Beginners guide to install and run Gazebo with ROS and ardupilot SITL for advanced drone simulations, This will also go through VTOL or quadplane simulation and solve possible errors (Note: Iam preparing this doc with the help of Intelligent-Quads, So if you want to simulate other vehicle models, you can visit there Github page 
+This is a Beginners guide to install and run Gazebo with ROS and ardupilot SITL for advanced drone simulations, This will also go through VTOL or quadplane simulation and solve possible errors (Note: Iam preparing this doc with the help of Intelligent-Quads, So if you want to simulate other vehicle models, you can visit there Github page
+[Intelligent-Quads](https://github.com/Intelligent-Quads/iq_tutorials/tree/master))
 # Installation Guide for Gazebo + Ardupilot setup
 (You need a Ubuntu 20.04 booted in)</br>(Can use WSL for windows and download Ubuntu 20.04LTS from microsoft store !not recommended)
 

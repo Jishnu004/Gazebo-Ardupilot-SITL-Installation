@@ -20,7 +20,7 @@ This repository is a beginner-friendly setup and guide for integrating **Gazebo*
 Detailed guides and setup instructions ⬇️:
 
 - [Gazebo + ROS + ArduPilot Installation Guide](docs/Gazebo_with_Ros_and_ArduPilot_SITL_Guide.md)
-- [C++ Waypoint Navigation Using GNC API](docs/Guidance_Navigation_and_Control(No_error_2025).md)
+- [C++ Waypoint Navigation Using GNC API](docs/GNC.md)
 
 ---
 

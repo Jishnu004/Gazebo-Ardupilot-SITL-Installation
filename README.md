@@ -26,7 +26,7 @@ Detailed guides and setup instructions ⬇️:
 
 ## 🙏 Acknowledgment
 
-This repository was created with guidance from the excellent [Intelligent-Quads GitHub repository]([https://github.com/Intelligent-Quads](https://github.com/Intelligent-Quads/iq_tutorials/tree/master)). Special thanks to their community for foundational insights and inspiration.
+This repository was created with guidance from the excellent [Intelligent-Quads GitHub repository](https://github.com/Intelligent-Quads/iq_tutorials/tree/master). Special thanks to their community for foundational insights and inspiration.
 
 ---
 

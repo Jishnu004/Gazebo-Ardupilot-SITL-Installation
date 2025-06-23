@@ -239,7 +239,7 @@ wstool update -t src
 rosdep install --from-paths src --ignore-src --rosdistro `echo $ROS_DISTRO` -y
 ```
 
-(note:if an error pops that says this "Cannot locate rosdep definition for [geographic_msgs]" then proceed with this steps, if no error come up,continue with "catkin build")
+(note:if an error pops that says this "Cannot locate rosdep definition for [geographic_msgs]" then proceed with this steps, if no error come up,continue with "catkin workspace")
 
 Install geographic_msgs manually
 
@@ -279,7 +279,11 @@ or try with version(eg: if noetic)
 rosdep install --from-paths src --ignore-src --rosdistro noetic -y
 ```
 
-# catkin build
+# catkin workspace
+
+```bash
+catkin build
+```
 
 Add a line to end of ~/.bashrc by running the following command:
 
@@ -378,7 +382,7 @@ You will see something like this:
             },
 ```
 
-Then copy the file iq_sim/scripts/vtol-params/gazebo_quadplane.parm to ardupilot/Tools/autotest/default_params/gazebo_quadplane.parm, you can do this in your file explorer
+Then copy the file</br>***iq_sim/scripts/vtol-params/gazebo_quadplane.parm*** to </br>***ardupilot/Tools/autotest/default_params/gazebo_quadplane.parm***, </br>you can do this in your file explorer
 
 ## Run Simulation VTOL
 
